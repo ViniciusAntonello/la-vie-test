@@ -15,7 +15,7 @@ export class PsicologoService {
         bairro: await this.getBairro(cep)
         });
 
-        return newPsicologo;
+        return newPsicologo
     }
 
     async getBairro(cep: string){

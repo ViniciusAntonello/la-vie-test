@@ -1,12 +1,14 @@
-import type { InitialOptionsTsJest } from 'ts-jest';
+import type {
+ InitialOptionsTsJest
+} from 'ts-jest'
 
 const config: InitialOptionsTsJest = {
   modulePathIgnorePatterns: [
-    './dist'
-  ],
+    '../dist'
+  ], 
   globals: {
     'ts-jest': { }
-  },
+  }
 }
 
 export default config
